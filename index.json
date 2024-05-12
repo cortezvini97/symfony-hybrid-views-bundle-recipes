@@ -2,7 +2,7 @@
     "aliases":[],
     "recipes": {
         "cortezvini97/symfony-hybrid-views-bundle": [
-            "0.2"
+            "1.0"
         ]
     },
     "recipe-conflicts": [],
