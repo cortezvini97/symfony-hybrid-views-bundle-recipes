@@ -1,7 +1,7 @@
 {
     "recipes": {
-        "acme/private-bundle": [
-            "1.0"
+        "cortezvini97/symfony-hybrid-views-bundle": [
+            "0.0.2"
         ]
     },
     "branch": "main",
