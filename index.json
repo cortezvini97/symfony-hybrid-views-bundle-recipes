@@ -1,0 +1,14 @@
+{
+    "recipes": {
+        "acme/private-bundle": [
+            "1.0"
+        ]
+    },
+    "branch": "main",
+    "is_contrib": true,
+    "_links": {
+        "repository": "github.com/cortezvini97/symfony-hybrid-views-bundle-recipes",
+        "origin_template": "{package}:{version}@github.com/cortezvini97/symfony-hybrid-views-bundle-recipes:main",
+        "recipe_template": "https://api.github.com/repos/cortezvini97/symfony-hybrid-views-bundle-recipes/contents/{package_dotted}.{version}.json"
+    }
+}
