@@ -1,0 +1,5 @@
+{
+    "bundles": {
+      "Cortez\\SymfonyHybridViews\\SymfonyHybridViews": ["all"]
+    }
+}

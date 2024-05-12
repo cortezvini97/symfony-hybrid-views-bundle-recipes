@@ -1,0 +1,14 @@
+{
+    "manifests": {
+        "cortez97/symfony-hybrid-views-bundle": {
+            "manifest": {
+                "bundles": {
+                    "Cortez\\SymfonyHybridViews\\SymfonyHybridViews": [
+                        "all"
+                    ]
+                }
+            },
+            "ref": "4a91aa3396d002af9f4171ca82cf61da53a31e53"
+        }
+    }
+}
