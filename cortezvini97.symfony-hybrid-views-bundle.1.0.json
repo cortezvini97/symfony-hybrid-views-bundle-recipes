@@ -11,14 +11,14 @@
                     "Resources/symfony_hybrid_views.yaml": "%CONFIG_DIR%/packages/symfony_hybrid_views.yaml"
                 },
                 "copy-from-recipe": {
-                    "bin/symfony_hybrid_views.yaml":"%BIN_DIR%/symfony_hybrid_views.yaml"
+                    "bin/packages/symfony_hybrid_views.yaml":"%BIN_DIR%/symfony_hybrid_views.yaml"
                 },
                 "post-install-output": [
                     "<bg=green;fg=white> Symfony Hybrid Views Installed </>"
                 ]
             },
             "files": {
-                "bin/symfony_hybrid_views.yaml":{
+                "bin/packages/symfony_hybrid_views.yaml":{
                     "contents":[
                         "symfony_hybrid_views:",
                         "    dir_views: 'views'",

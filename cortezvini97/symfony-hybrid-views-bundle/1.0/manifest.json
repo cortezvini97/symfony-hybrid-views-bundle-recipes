@@ -7,6 +7,6 @@
 
   },
   "copy-from-recipe": {
-    "bin/symfony_hybrid_views.yaml":"%BIN_DIR%/symfony_hybrid_views.yaml"
+    "bin/packages/symfony_hybrid_views.yaml":"%BIN_DIR%/symfony_hybrid_views.yaml"
   }
 }
