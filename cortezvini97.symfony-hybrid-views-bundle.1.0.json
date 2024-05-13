@@ -9,9 +9,14 @@
                 },
                 "copy-from-package": {
                     "Resources/symfony_hybrid_views.yaml": "%CONFIG_DIR%/packages/symfony_hybrid_views.yaml"
+                },
+                "copy-from-recipe":{
+                    "views/": "views/",
+                    "blade_functions/": "blade_functions/",
+                    "blade_directives/": "blade_directives/"
                 }
             },
-            "ref": "09c9aab2a7831f015d4a2470fc0861cd33d867cd"
+            "ref": "cf0864805dcbadda05d99e49eb7cf3519f7198e6"
         }
     }
 }
