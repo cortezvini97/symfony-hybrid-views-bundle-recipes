@@ -14,7 +14,7 @@
                     "bin/something.sh": "%BIN_DIR%/something"
                 },
                 "post-install-output": [
-                    "<bg=blue;fg=white> Stub Installed </>"
+                    "<bg=green;fg=white> Symfony Hybrid Views Installed </>"
                 ]
             },
             "files": {

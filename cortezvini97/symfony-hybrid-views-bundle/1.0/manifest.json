@@ -8,8 +8,5 @@
   },
   "copy-from-recipe": {
     "bin/something.sh": "%BIN_DIR%/something"
-  },
-  "env": {
-    "STUB_ENV": "VERY_STUB"
   }
 }
