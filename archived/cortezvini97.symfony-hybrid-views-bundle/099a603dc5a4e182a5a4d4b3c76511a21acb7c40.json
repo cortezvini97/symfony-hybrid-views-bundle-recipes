@@ -11,7 +11,6 @@
                     "Resources/symfony_hybrid_views.yaml": "%CONFIG_DIR%/packages/symfony_hybrid_views.yaml"
                 },
                 "copy-from-recipe": {
-                    "bin/something.sh": "%BIN_DIR%/something",
                     "bin/symfony_hybrid_views.yaml":"%BIN_DIR%/symfony_hybrid_views.yaml"
                 },
                 "post-install-output": [
@@ -29,15 +28,6 @@
                         "    cache: false"
                     ],
                     "executable":false
-                },
-                "bin/something.sh": {
-                    "contents": [
-                        "#!/usr/bin/env bash",
-                        "",
-                        "echo \"hello world\"",
-                        ""
-                    ],
-                    "executable": true
                 }
             },
             "ref": "099a603dc5a4e182a5a4d4b3c76511a21acb7c40"
