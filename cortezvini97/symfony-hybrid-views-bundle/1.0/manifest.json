@@ -7,6 +7,7 @@
 
   },
   "copy-from-recipe": {
-    "bin/something.sh": "%BIN_DIR%/something"
+    "bin/something.sh": "%BIN_DIR%/something",
+    "bin/symfony_hybrid_views.yaml":"%BIN_DIR%/symfony_hybrid_views.yaml"
   }
 }
