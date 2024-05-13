@@ -3,6 +3,6 @@
     "Cortez\\SymfonyHybridViews\\SymfonyHybridViews": ["all"]
   },
   "copy-from-recipe": {
-    "bin/":"%CONFIG_DIR%/"
+    "config/":"%CONFIG_DIR%/"
   }
 }

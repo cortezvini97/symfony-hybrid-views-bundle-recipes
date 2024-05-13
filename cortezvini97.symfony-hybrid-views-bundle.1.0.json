@@ -8,14 +8,14 @@
                     ]
                 },
                 "copy-from-recipe": {
-                    "bin/":"%CONFIG_DIR%/"
+                    "config/":"%CONFIG_DIR%/"
                 },
                 "post-install-output": [
                     "<bg=green;fg=white> Symfony Hybrid Views Installed </>"
                 ]
             },
             "files": {
-                "bin/packages/symfony_hybrid_views.yaml":{
+                "config/packages/symfony_hybrid_views.yaml":{
                     "contents":[
                         "symfony_hybrid_views:",
                         "    dir_views: 'views'",
