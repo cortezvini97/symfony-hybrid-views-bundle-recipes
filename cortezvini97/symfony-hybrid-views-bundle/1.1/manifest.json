@@ -1,0 +1,11 @@
+{
+  "bundles": {
+    "Cortez\\SymfonyHybridViews\\SymfonyHybridViews": ["all"]
+  },
+  "copy-from-recipe": {
+    "config/":"%CONFIG_DIR%/",
+    "views/":"views/",
+    "blade_functions/":"blade_functions/",
+    "blade_directives/":"blade_directives/"
+  }
+}

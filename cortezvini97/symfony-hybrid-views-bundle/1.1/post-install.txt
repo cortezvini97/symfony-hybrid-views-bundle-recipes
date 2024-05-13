@@ -1,0 +1,1 @@
+<bg=green;fg=white> Symfony Hybrid Views Installed </>
