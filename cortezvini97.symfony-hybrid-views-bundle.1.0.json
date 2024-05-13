@@ -16,7 +16,36 @@
                     "blade_directives/": "blade_directives/"
                 }
             },
-            "ref": "cf0864805dcbadda05d99e49eb7cf3519f7198e6"
+            "ref": "8c05def441ec33023757c057cd349fa65e15a9ba"
+        },
+        "files":{
+            "views/index.blade.php":{
+                "contents":[
+                    "<p>@helloworld('Hello World')</p>"
+                ],
+                "executable":false
+            },
+            "blade_functions/hello_world.php":{
+                "contents":[
+                    "<?php",
+                    "",
+                    "function hello_world($hello) {",
+                    "    return $hello;",
+                    "};"
+                ],
+                "executable":false
+            },
+            "blade_directives/helloworld.php":{
+                "contents":[
+                    "<?php",
+                    "",
+                    "return function ($expression) {",
+                    "    // Your Logic",
+                    "    return '<?php echo hello_world(.'.$expression.'); ?>';",
+                    "};"
+                ],
+                "executable":false
+            }
         }
     }
 }
