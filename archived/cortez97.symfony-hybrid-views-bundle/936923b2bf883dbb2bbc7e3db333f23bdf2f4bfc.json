@@ -8,10 +8,10 @@
                     ]
                 },
                 "copy-from-recipe": {
-                    "config/symfony_hybrid_views.yaml": "%CONFIG_DIR%/symfony_hybrid_views.yaml"
+                    "config/": "%CONFIG_DIR%/"
                 }
             },
-            "ref": "960a9cdeb45f05211a563373645892ccf7f9ba53"
+            "ref": "936923b2bf883dbb2bbc7e3db333f23bdf2f4bfc"
         }
     }
 }
