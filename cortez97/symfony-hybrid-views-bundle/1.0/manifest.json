@@ -1,5 +1,8 @@
 {
     "bundles": {
-      "Cortez\\SymfonyHybridViews\\SymfonyHybridViews": ["all"]
+        "Cortez\\SymfonyHybridViews\\SymfonyHybridViews": ["all"]
+    },
+    "copy-from-package":{
+        "config/symfony_hybrid_views.yaml": "%CONFIG_DIR%/symfony_hybrid_views.yaml"
     }
 }
