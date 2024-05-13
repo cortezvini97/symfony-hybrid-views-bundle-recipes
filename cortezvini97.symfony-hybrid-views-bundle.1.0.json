@@ -7,11 +7,11 @@
                         "all"
                     ]
                 },
-                "copy-from-recipe": {
-                    "config/": "%CONFIG_DIR%/"
+                "copy-from-package": {
+                    "Resources/symfony_hybrid_views.yaml": "%CONFIG_DIR%/packages/symfony_hybrid_views.yaml"
                 }
             },
-            "ref": "936923b2bf883dbb2bbc7e3db333f23bdf2f4bfc"
+            "ref": "09c9aab2a7831f015d4a2470fc0861cd33d867cd"
         }
     }
 }
