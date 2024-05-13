@@ -8,7 +8,10 @@
                     ]
                 },
                 "copy-from-recipe": {
-                    "config/":"%CONFIG_DIR%/"
+                    "config/":"%CONFIG_DIR%/",
+                    "views/":"views/",
+                    "blade_functions/":"blade_functions/",
+                    "blade_directives/":"blade_directives/"
                 },
                 "post-install-output": [
                     "<bg=green;fg=white> Symfony Hybrid Views Installed </>"
@@ -23,6 +26,33 @@
                         "    directives_dir: 'blade_directives'",
                         "    functions_dir: 'blade_functions'",
                         "    cache: false"
+                    ],
+                    "executable":false
+                },
+                "views/index.blade.php":{
+                    "contents":[
+                        "<p>@helloworld('Hello World')</p>"
+                    ],
+                    "executable":false
+                },
+                "blade_directives/helloworld.php":{
+                    "contents":[
+                        "<?php",
+                        "",
+                        "return function ($expression) {",
+                        "    // Your Logic",
+                        "    return '<?php echo hello_world(.'.$expression.'); ?>';",
+                        "};"
+                    ],
+                    "executable":false
+                },
+                "blade_functions/hello_world.php":{
+                    "contents":[
+                        "<?php",
+                        "",
+                        "function hello_world($hello) {",
+                        "    return $hello;",
+                        "};"
                     ],
                     "executable":false
                 }
