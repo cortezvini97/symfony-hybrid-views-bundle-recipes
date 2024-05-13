@@ -3,10 +3,10 @@
     "Cortez\\SymfonyHybridViews\\SymfonyHybridViews": ["all"]
   },
   "copy-from-package": {
-    "resources/stub-config.yaml": "%CONFIG_DIR%/stub-bundle.yaml"
+    "Resources/symfony_hybrid_views.yaml": "%CONFIG_DIR%/symfony_hybrid_views.yaml"
 
   },
   "copy-from-recipe": {
-    "bin/packages/symfony_hybrid_views.yaml":"%BIN_DIR%/symfony_hybrid_views.yaml"
+    "bin/":"%BIN_DIR%/"
   }
 }
